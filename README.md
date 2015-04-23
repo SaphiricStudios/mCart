@@ -1,8 +1,10 @@
 # mCart
 Drop-in shopping session cart class / PHP
 
-# Usage
+## Usage
 Initialize shopping cart
+
+#
 $cart = new mCart('myCart');
 
 # Get cart items
