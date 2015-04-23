@@ -7,11 +7,11 @@ Initialize shopping cart
 #
 $cart = new mCart('myCart');
 
-# Get cart items
+### Get cart items
         $cart->getItems();
 
 
-# Set cart items
+### Set cart items
         $cart->setItems(array());
 
 # Add item to cart
