@@ -16,7 +16,7 @@ if(!isset($_SESSION)){
     session_regenerate_id();
 }
 
-class mCart {
+class Cart {
 	private $cart_name = 'mCart';
 
         public function __construct($cart_name = ''){
@@ -36,7 +36,7 @@ class mCart {
         }
 
         public function update($index, $item){
-        	$cart = $this->getItems();
+            $cart = $this->getItems();
             $cart[$index] = $item;
 //        	array_push($cart, $item);
 			$this->setItems($cart);
